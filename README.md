@@ -1,1 +1,2 @@
-# Official Repository for the agric-os data transfer project
+# Creating a personal endpoint to create farming activities
+
