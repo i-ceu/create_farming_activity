@@ -1,0 +1,208 @@
+[
+   {
+      "name": "postgresdb",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "agricos-dev",
+      "password": "Ysi7jueb9XF4rYc",
+      "database": "recruitment-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "postgresdb-portfolio",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "portfolio",
+      "password": "XZ?c-fYG#eaMC~oO",
+      "database": "portfolio-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "postgresdb-inventory",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "agricos-dev",
+      "password": "Ysi7jueb9XF4rYc",
+      "database": "inventory-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "postgresdb-farming",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "chibeze",
+      "password": "8!fvq_gp",
+      "database": "farming-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      },
+      "poolSize":5,
+      "extra": {
+         "connectionLimit":5,
+         "idleTimeoutMillis": 120000, 
+         "connectionTimeoutMillis": 60000
+      }
+   },
+   {
+      "name": "mysqldb",
+      "type": "mysql",
+      "host": "34.159.134.5",
+      "port": 3306,
+      "username": "chibeze",
+      "password": "8j[\\U#qc",
+      "database": "bulkbana_mkt",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "mysqldb_verification",
+      "type": "mysql",
+      "host": "34.159.134.5",
+      "port": 3306,
+      "username": "chibeze",
+      "password": "8j[\\U#qc",
+      "database": "bulkbana_verification",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "postgresdb-planning",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "agricos-dev",
+      "password": "Ysi7jueb9XF4rYc",
+      "database": "planning-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   },
+   {
+      "name": "postgresdb-recruitment",
+      "type": "postgres",
+      "host": "35.234.120.31",
+      "port": 5432,
+      "username": "agricos-dev",
+      "password": "Ysi7jueb9XF4rYc",
+      "database": "recruitment-db",
+      "synchronize": false,
+      "logging": false,
+      "entities": [
+         "src/entity/**/*.{ts,js}"
+      ],
+      "migrations": [
+         "src/migration/**/*.ts"
+      ],
+      "subscribers": [
+         "src/subscriber/**/*.ts"
+      ],
+      "cli": {
+         "entitiesDir": "src/entity",
+         "migrationsDir": "src/migration",
+         "subscribersDir": "src/subscriber"
+      }
+   }
+]
