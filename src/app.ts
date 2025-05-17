@@ -30,7 +30,7 @@ class App {
     // this.connectToDatabase();
     this.app = express();
     this.env = NODE_ENV || "development";
-    this.port = process.env.PORT || 80;
+    this.port = process.env.PORT || 3000;
 
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
