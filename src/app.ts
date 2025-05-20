@@ -33,7 +33,7 @@ class App {
 
     this.app = express();
     this.env = NODE_ENV || "development";
-    this.port = process.env.PORT || 3000;
+    this.port = PORT || 3000;
     
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
