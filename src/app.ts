@@ -1,3 +1,4 @@
+
 import "reflect-metadata";
 import cookieParser from "cookie-parser";
 import cors from "cors";
@@ -32,6 +33,8 @@ class App {
     this.env = NODE_ENV || "development";
     this.port = process.env.PORT || 3000;
 
+    console.log( process.env.POSTGRES_HOST," ", process.env.POSTGRES_PORT, " " ,process.env.POSTGRES_USERNAME, "  " ,process.env.POSTGRES_PASSWORD," ", PORT)
+    
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
   }
