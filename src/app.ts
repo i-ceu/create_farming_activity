@@ -29,7 +29,7 @@ class App {
 
   constructor(routes: Routes[]) {
     // this.connectToDatabase();
-    console.log( process.env.POSTGRES_HOST," ", process.env.POSTGRES_PORT, " " ,process.env.POSTGRES_USERNAME, "  " ,process.env.POSTGRES_PASSWORD," ", PORT)
+    console.log( process.env.POSTGRES_HOST, " " ,process.env.POSTGRES_USERNAME, "  " ,process.env.POSTGRES_PASSWORD," ", PORT)
 
     this.app = express();
     this.env = NODE_ENV || "development";
